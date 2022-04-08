@@ -25,6 +25,9 @@ let template = `
 `
 marker.bindPopup(template);
 
+
+
+
 const marker1 = L.marker([48.73269224113967, 19.13131053693181]).addTo(map);
 
 let template1 = `
@@ -34,6 +37,8 @@ let template1 = `
 <img width = "150" height = "150" src = "dukla.jpg"/>
 `
 marker1.bindPopup(template1);
+
+
 
 
 const marker2 = L.marker([48.74192946586369, 19.123179695785524]).addTo(map);
@@ -46,6 +51,8 @@ let template2 = `
 `
 marker2.bindPopup(template2);
 
+
+
 const marker3 = L.marker([48.752850314757765, 19.186845603331857]).addTo(map);
 
 let template3 = `
@@ -55,6 +62,8 @@ let template3 = `
 <img width = "250" height = "150" src = "muzeum.jpg"/>
 `
 marker3.bindPopup(template3);
+
+
 
 const marker4 = L.marker([48.71335392600273, 19.241554937299128]).addTo(map);
 
